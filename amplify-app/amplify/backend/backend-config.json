@@ -1,1 +1,45 @@
-{}
+{
+  "auth": {
+    "appdeply25b8a590": {
+      "customAuth": false,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "serviceType": "imported"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_auth_appdeply25b8a590_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "appdeply25b8a590"
+        }
+      ]
+    },
+    "AMPLIFY_auth_appdeply25b8a590_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "appdeply25b8a590"
+        }
+      ]
+    },
+    "AMPLIFY_auth_appdeply25b8a590_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "appdeply25b8a590"
+        }
+      ]
+    },
+    "AMPLIFY_auth_appdeply25b8a590_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "appdeply25b8a590"
+        }
+      ]
+    }
+  }
+}

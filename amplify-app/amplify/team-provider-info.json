@@ -10,6 +10,16 @@
       "StackName": "amplify-appdeply-dev-05433",
       "StackId": "arn:aws:cloudformation:us-east-1:567065860200:stack/amplify-appdeply-dev-05433/946e4380-fd96-11ee-8cec-12b56d6b82f9",
       "AmplifyAppId": "d4r7hrnpxu8z7"
+    },
+    "categories": {
+      "auth": {
+        "appdeply25b8a590": {
+          "userPoolId": "us-east-1_rtJ6CHgvD",
+          "userPoolName": "propulsora_softipal_user_pool",
+          "webClientId": "iqh90765c44dvpvrt6sibntf7",
+          "nativeClientId": "iqh90765c44dvpvrt6sibntf7"
+        }
+      }
     }
   }
 }
