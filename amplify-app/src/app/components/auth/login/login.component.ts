@@ -61,4 +61,9 @@ export class LoginComponent {
 
     this.cognitoService.handleSignUpConfirmation(data)
   }
+
+  logout(){
+    console.log("SII")
+    this.cognitoService.handleSignOut().then()
+  }
 }

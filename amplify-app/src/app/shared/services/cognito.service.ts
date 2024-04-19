@@ -145,7 +145,8 @@ export class CognitoService {
 
   async handleSignOut() {
     try {
-      await signOut({ global: true });
+      console.log("IOOOOOOOOO")
+      await signOut();
     } catch (error) {
       console.log('error signing out: ', error);
     }
