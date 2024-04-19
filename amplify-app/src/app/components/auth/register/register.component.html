@@ -1,1 +1,53 @@
-<p>register works!</p>
+<div class="limiter">
+  <div class="container-login100">
+    <div class="container">
+      <form class="login100-form" autocomplete="off" [formGroup]="myForm" (ngSubmit)="register()">
+        <span class="login100-form-title p-b-15">
+          Registro
+        </span>
+        <div class="row mt-5">
+          <div class="col-6">
+            <div class="wrap-input100 m-b-23">
+              <span class="label-input100">Usuario</span>
+              <input class="input100" type="text" formControlName="username" placeholder="Usuario">
+              <span class="focus-input100"></span>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="wrap-input100 m-b-23">
+              <span class="label-input100">Telefono</span>
+              <input class="input100" type="text" formControlName="phone_number" placeholder="Telefono">
+              <span class="focus-input100"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <div class="wrap-input100">
+              <span class="label-input100">Contraseña</span>
+              <input class="input100" type="password" formControlName="password" placeholder="Ingrese su contraseña">
+              <span class="focus-input100"></span>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="wrap-input100 m-b-23">
+              <span class="label-input100">Correo</span>
+              <input class="input100" type="email" formControlName="email" placeholder="Correo">
+              <span class="focus-input100"></span>
+            </div>
+          </div>
+        </div>
+        <div class="container-login100-form-btn">
+          <div class="wrap-login100-form-btn">
+              <div class="login100-form-bgbtn"></div>
+              <button class="login100-form-btn"
+                      [disabled]="myForm.invalid"
+                      type="submit">
+                  Registrar
+              </button>
+          </div>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
