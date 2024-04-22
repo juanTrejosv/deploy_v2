@@ -19,6 +19,9 @@
           "webClientId": "iqh90765c44dvpvrt6sibntf7",
           "nativeClientId": "iqh90765c44dvpvrt6sibntf7"
         }
+      },
+      "function": {
+        "appdeploy": {}
       }
     }
   }
