@@ -77,3 +77,11 @@ amplify-cognito helps
 
 # Comandos instalacion storage
 - amplify add storage
+
+
+# Comandos instalación api
+### Create API
+
+- amplify add api
+    - option REST
+    - 
